@@ -7,8 +7,7 @@ load_dotenv()
 
 def run():
     model = ChatOpenAI(model="doubao-seed-2.0-pro",
-                       base_url="https://ark.cn-beijing.volces.com/api/coding/v3",
-                       api_key="ark-aa4df402-072c-4cb6-881f-3c980c4566f6-806e2")
+                       base_url="https://ark.cn-beijing.volces.com/api/coding/v3")
     messages = [
         SystemMessage(content="你是一个中英翻译助手，帮助用户将中文翻译成英文，或者将英文翻译成中文。"),
         HumanMessage(content="how are you?"),
