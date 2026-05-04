@@ -16,4 +16,6 @@ dependencies = [
     "jupyterlab>=4.5.7",
     "langgraph>=1.1.10",
     "grandalf>=0.8",
+    "langchain-redis>=0.2.5",
+    "redis>=7.4.0",
 ]

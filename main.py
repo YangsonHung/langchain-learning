@@ -1,4 +1,4 @@
-from chapter_06 import run
+from chapter_08 import run
 
 def main():
     run()
