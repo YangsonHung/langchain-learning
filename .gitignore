@@ -31,3 +31,7 @@ Thumbs.db
 
 # uv
 .python-version
+
+.claude
+.agents
+
