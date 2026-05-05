@@ -19,3 +19,8 @@ dependencies = [
     "langchain-redis>=0.2.5",
     "redis>=7.4.0",
 ]
+
+[dependency-groups]
+dev = [
+    "black>=26.3.1",
+]

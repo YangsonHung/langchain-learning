@@ -6,21 +6,17 @@ LangChain 框架学习项目，基于 Python 3.12 + uv 构建。
 
 ```
 langchain-learning/
-├── chapter_01/    # LangChain 基础入门
-├── chapter_02/    # 模型调用与提示词工程
-├── chapter_03/    # 输出解析与链式调用
-├── chapter_04/    # RAG 检索增强生成
-├── chapter_05/    # Agent 与工具调用
+├── chapter_*/     # 各章节学习笔记与代码，章节持续增加
 ├── main.py        # 入口文件
-└── pyproject.toml # 项目依赖配置
+├── pyproject.toml # 项目依赖配置
+└── uv.lock        # 依赖锁文件
 ```
 
 ## 技术栈
 
 - **Python**: >=3.12
 - **包管理**: uv
-- **核心依赖**: langchain, langchain-openai, langchain-community, langchain-deepseek
-- **开发工具**: jupyterlab, ipykernel
+- **依赖**: 以 `pyproject.toml` 为准
 
 ## 快速开始
 
@@ -36,6 +32,11 @@ uv run jupyter lab
 
 在项目根目录创建 `.env` 文件：
 
-```
+```env
 OPENAI_API_KEY=your_key_here
 ```
+
+## 约定
+
+- 使用约定式提交（Conventional Commits）
+- API 密钥通过 `.env` 管理，不提交到仓库
